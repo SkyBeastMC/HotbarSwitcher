@@ -1,0 +1,13 @@
+name: Menu
+version: 1.0
+main: fr.skybeastmc.menu.Main
+description: Menu
+author: [SkyBeast55]
+softdepend: [Vault]
+commands:
+  menu:
+    description: Open a menu.
+    permission: menu.open
+permissions:
+  menu.open:
+    default: op
