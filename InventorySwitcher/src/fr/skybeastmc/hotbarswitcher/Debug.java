@@ -54,11 +54,11 @@ public class Debug implements Listener {
 	@EventHandler
 	public void onInteractEvent(PlayerInteractEvent event) {
 		try {
-			
-		} catch(Exception e) {
-			error(e, "Debug", false);
-		}
+			Debug.debug("hepaze");
+			HotbarSwitcher.switchHotbar(event.getPlayer());
+		} catch(Exception e) {Debug.error(e, "Switch command", false);}
 	}
+	
 	public static void info(Object o) {
 		Bukkit.getLogger().info(String.valueOf(o));
 	}

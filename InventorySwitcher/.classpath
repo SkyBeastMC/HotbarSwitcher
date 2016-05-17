@@ -9,5 +9,6 @@
 	</classpathentry>
 	<classpathentry kind="lib" path="D:/Développement/dev/APIs/spigot-1.7-protocolhack-1.8.jar"/>
 	<classpathentry kind="lib" path="D:/Développement/dev/APIs/Vault.jar"/>
+	<classpathentry kind="lib" path="D:/Développement/dev/APIs/ProtocolLib (4).jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

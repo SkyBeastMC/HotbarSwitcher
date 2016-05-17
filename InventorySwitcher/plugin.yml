@@ -1,13 +1,16 @@
-name: Menu
+name: HotbarSwitcher
 version: 1.0
-main: fr.skybeastmc.menu.Main
-description: Menu
+main: fr.skybeastmc.hotbarswitcher.Main
+description: HotbarSwitcher
 author: [SkyBeast55]
-softdepend: [Vault]
+depend: [ProtocolLib]
 commands:
-  menu:
-    description: Open a menu.
-    permission: menu.open
+  switch:
+    description: Switch your hotbar
+    alias: [s]
+    permission: hotbar.switch
 permissions:
-  menu.open:
+  hotbar.item:
+    default: op
+  hotbar.switch:
     default: op
